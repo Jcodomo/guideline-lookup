@@ -1,0 +1,15 @@
+# scratch / crawl leftovers
+*.log
+/e.html
+/fn_home.html
+/fr.html
+/frs.html
+/frsm.xml
+/hud.html
+/hudh.html
+/s.html
+/sm.xml
+/t.html
+/va.html
+/va_l.html
+__pycache__/

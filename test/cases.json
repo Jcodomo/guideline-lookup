@@ -1,0 +1,919 @@
+[
+ {
+  "q": "borrower just started a new job",
+  "any": [
+   "new job",
+   "offer",
+   "start date",
+   "employment"
+  ],
+  "n": 5
+ },
+ {
+  "q": "how long after bankruptcy can I get a loan",
+  "any": [
+   "waiting period",
+   "bankruptcy"
+  ],
+  "n": 5
+ },
+ {
+  "q": "can my parents gift me the down payment",
+  "any": [
+   "gift"
+  ],
+  "n": 5
+ },
+ {
+  "q": "borrower deposited cash into account",
+  "any": [
+   "large deposit",
+   "deposit"
+  ],
+  "n": 5
+ },
+ {
+  "q": "does boarder income count",
+  "any": [
+   "boarder"
+  ],
+  "n": 5
+ },
+ {
+  "q": "can I use my 401k to qualify",
+  "any": [
+   "retirement",
+   "401"
+  ],
+  "n": 5
+ },
+ {
+  "q": "borrower is divorced and pays alimony",
+  "any": [
+   "alimony",
+   "divorce"
+  ],
+  "n": 5
+ },
+ {
+  "q": "credit score too low to qualify",
+  "any": [
+   "credit score"
+  ],
+  "n": 5
+ },
+ {
+  "q": "house is in a flood zone",
+  "any": [
+   "flood"
+  ],
+  "n": 5
+ },
+ {
+  "q": "home has solar panels",
+  "any": [
+   "solar"
+  ],
+  "n": 5
+ },
+ {
+  "q": "property on well and septic",
+  "any": [
+   "septic",
+   "well"
+  ],
+  "n": 5
+ },
+ {
+  "q": "borrower is not a us citizen",
+  "any": [
+   "non-permanent",
+   "permanent resident",
+   "lawful"
+  ],
+  "n": 5
+ },
+ {
+  "q": "borrower is on disability income",
+  "any": [
+   "disability"
+  ],
+  "n": 5
+ },
+ {
+  "q": "paying off collections before closing",
+  "any": [
+   "collection"
+  ],
+  "n": 5
+ },
+ {
+  "q": "tax lien on credit report",
+  "any": [
+   "tax lien"
+  ],
+  "n": 5
+ },
+ {
+  "q": "borrower has a judgment",
+  "any": [
+   "judgment"
+  ],
+  "n": 5
+ },
+ {
+  "q": "borrower owns several rental properties",
+  "any": [
+   "financed properties",
+   "rental"
+  ],
+  "n": 5
+ },
+ {
+  "q": "student loan in deferment",
+  "any": [
+   "deferment",
+   "deferred",
+   "student loan"
+  ],
+  "n": 5
+ },
+ {
+  "q": "borrower cosigned a car loan",
+  "any": [
+   "contingent liabilit",
+   "cosign",
+   "co-sign"
+  ],
+  "n": 5
+ },
+ {
+  "q": "car lease payment ending soon",
+  "any": [
+   "lease"
+  ],
+  "n": 5
+ },
+ {
+  "q": "accessory dwelling unit income",
+  "any": [
+   "accessory dwelling"
+  ],
+  "n": 5
+ },
+ {
+  "q": "airbnb short term rental income",
+  "any": [
+   "short-term rental",
+   "short term rental"
+  ],
+  "n": 5
+ },
+ {
+  "q": "property held in a trust",
+  "any": [
+   "trust"
+  ],
+  "n": 5
+ },
+ {
+  "q": "someone signing with power of attorney",
+  "any": [
+   "power of attorney"
+  ],
+  "n": 5
+ },
+ {
+  "q": "condo project in litigation",
+  "any": [
+   "litigation"
+  ],
+  "n": 5
+ },
+ {
+  "q": "co-op loans",
+  "any": [
+   "co-op",
+   "cooperative"
+  ],
+  "n": 5
+ },
+ {
+  "q": "FHA seller concessions limit",
+  "any": [
+   "interested party",
+   "concession",
+   "6 percent",
+   "6%"
+  ],
+  "n": 5
+ },
+ {
+  "q": "FHA minimum down payment",
+  "any": [
+   "3.5",
+   "minimum required investment",
+   "down payment"
+  ],
+  "n": 5
+ },
+ {
+  "q": "FHA streamline refinance",
+  "any": [
+   "streamline"
+  ],
+  "n": 5
+ },
+ {
+  "q": "FHA minimum credit score 580",
+  "any": [
+   "580"
+  ],
+  "n": 5
+ },
+ {
+  "q": "FHA condo approval",
+  "any": [
+   "condominium"
+  ],
+  "n": 5
+ },
+ {
+  "q": "FHA non occupying co-borrower",
+  "any": [
+   "non-occupying",
+   "non-occupant"
+  ],
+  "n": 5
+ },
+ {
+  "q": "FHA manufactured home foundation",
+  "any": [
+   "permanent foundation",
+   "manufactured"
+  ],
+  "n": 5
+ },
+ {
+  "q": "FHA mortgage insurance premium rates",
+  "any": [
+   "mortgage insurance premium",
+   "mip"
+  ],
+  "n": 5
+ },
+ {
+  "q": "FHA appraisal valid how long",
+  "any": [
+   "appraisal"
+  ],
+  "n": 5
+ },
+ {
+  "q": "FHA maximum DTI ratio",
+  "any": [
+   "debt-to-income",
+   "qualifying ratio",
+   "total fixed payment"
+  ],
+  "n": 5
+ },
+ {
+  "q": "FHA derogatory credit chapter 7",
+  "any": [
+   "chapter 7",
+   "bankruptcy"
+  ],
+  "n": 5
+ },
+ {
+  "q": "FHA gift funds",
+  "any": [
+   "gift"
+  ],
+  "n": 5
+ },
+ {
+  "q": "FHA collection accounts",
+  "any": [
+   "collection"
+  ],
+  "n": 5
+ },
+ {
+  "q": "FHA self employed",
+  "any": [
+   "self-employed",
+   "self employed"
+  ],
+  "n": 5
+ },
+ {
+  "q": "FHA rental income",
+  "any": [
+   "rental income"
+  ],
+  "n": 5
+ },
+ {
+  "q": "VA funding fee",
+  "any": [
+   "funding fee"
+  ],
+  "n": 5
+ },
+ {
+  "q": "VA entitlement restoration",
+  "any": [
+   "restoration",
+   "entitlement"
+  ],
+  "n": 5
+ },
+ {
+  "q": "VA IRRRL requirements",
+  "any": [
+   "interest rate reduction",
+   "irrrl"
+  ],
+  "n": 5
+ },
+ {
+  "q": "VA residual income",
+  "any": [
+   "residual income"
+  ],
+  "n": 5
+ },
+ {
+  "q": "VA peeling paint appraisal",
+  "any": [
+   "paint"
+  ],
+  "n": 5
+ },
+ {
+  "q": "veteran certificate of eligibility",
+  "any": [
+   "certificate of eligibility",
+   "coe"
+  ],
+  "n": 5
+ },
+ {
+  "q": "VA loan assumption",
+  "any": [
+   "assumption"
+  ],
+  "n": 5
+ },
+ {
+  "q": "VA cash out refinance",
+  "any": [
+   "cash-out",
+   "cash out"
+  ],
+  "n": 5
+ },
+ {
+  "q": "VA loan limit",
+  "any": [
+   "loan limit",
+   "entitlement"
+  ],
+  "n": 5
+ },
+ {
+  "q": "bankrupcy waiting period",
+  "any": [
+   "bankruptcy"
+  ],
+  "n": 5
+ },
+ {
+  "q": "morgage insurance cancelation",
+  "any": [
+   "mortgage insurance"
+  ],
+  "n": 5
+ },
+ {
+  "q": "debt to incom ratio",
+  "any": [
+   "debt-to-income",
+   "debt to income"
+  ],
+  "n": 5
+ },
+ {
+  "q": "forclosure waiting period",
+  "any": [
+   "foreclosure"
+  ],
+  "n": 5
+ },
+ {
+  "q": "appriasal age requirement",
+  "any": [
+   "appraisal"
+  ],
+  "n": 5
+ },
+ {
+  "q": "DTI limits",
+  "any": [
+   "debt-to-income"
+  ],
+  "n": 5
+ },
+ {
+  "q": "LTV limits",
+  "any": [
+   "loan-to-value",
+   "ltv"
+  ],
+  "n": 5
+ },
+ {
+  "q": "HOA dues in DTI",
+  "any": [
+   "homeowners association",
+   "hoa",
+   "condo"
+  ],
+  "n": 5
+ },
+ {
+  "q": "REO owned property",
+  "any": [
+   "real estate owned",
+   "reo"
+  ],
+  "n": 5
+ },
+ {
+  "q": "what is the maximum DTI",
+  "any": [
+   "debt-to-income",
+   "dti"
+  ],
+  "n": 5
+ },
+ {
+  "q": "how much can a seller contribute",
+  "any": [
+   "interested party",
+   "seller",
+   "contribution"
+  ],
+  "n": 5
+ },
+ {
+  "q": "what documents do I need for self employed",
+  "any": [
+   "self-employed",
+   "tax return"
+  ],
+  "n": 5
+ },
+ {
+  "q": "how do I calculate overtime income",
+  "any": [
+   "overtime"
+  ],
+  "n": 5
+ },
+ {
+  "q": "how is bonus income averaged",
+  "any": [
+   "bonus"
+  ],
+  "n": 5
+ },
+ {
+  "q": "how to count commission income",
+  "any": [
+   "commission"
+  ],
+  "n": 5
+ },
+ {
+  "q": "part time job second job income",
+  "any": [
+   "part-time",
+   "second job"
+  ],
+  "n": 5
+ },
+ {
+  "q": "social security income gross up",
+  "any": [
+   "social security",
+   "gross up",
+   "non-taxable"
+  ],
+  "n": 5
+ },
+ {
+  "q": "child support income documentation",
+  "any": [
+   "child support"
+  ],
+  "n": 5
+ },
+ {
+  "q": "rental income from schedule E",
+  "any": [
+   "schedule e",
+   "rental income"
+  ],
+  "n": 5
+ },
+ {
+  "q": "employer relocation help",
+  "any": [
+   "relocation"
+  ],
+  "n": 5
+ },
+ {
+  "q": "down payment from savings and sale of home",
+  "any": [
+   "sale of",
+   "down payment",
+   "asset"
+  ],
+  "n": 5
+ },
+ {
+  "q": "sweat equity down payment",
+  "any": [
+   "sweat equity"
+  ],
+  "n": 5
+ },
+ {
+  "q": "earnest money deposit source",
+  "any": [
+   "earnest money"
+  ],
+  "n": 5
+ },
+ {
+  "q": "credit report too old",
+  "any": [
+   "credit report",
+   "age of"
+  ],
+  "n": 5
+ },
+ {
+  "q": "mortgage with no credit history",
+  "any": [
+   "nontraditional",
+   "non-traditional",
+   "no credit"
+  ],
+  "n": 5
+ },
+ {
+  "q": "rent payment history as credit",
+  "any": [
+   "rent",
+   "payment history",
+   "nontraditional"
+  ],
+  "n": 5
+ },
+ {
+  "q": "home with unpermitted addition",
+  "any": [
+   "unpermitted",
+   "legal",
+   "zoning",
+   "additions"
+  ],
+  "n": 5
+ },
+ {
+  "q": "zoning violation on the property",
+  "any": [
+   "zoning",
+   "legal nonconforming"
+  ],
+  "n": 5
+ },
+ {
+  "q": "property is a mixed use building",
+  "any": [
+   "mixed",
+   "commercial"
+  ],
+  "n": 5
+ },
+ {
+  "q": "rural property acreage",
+  "any": [
+   "acreage",
+   "rural",
+   "acre"
+  ],
+  "n": 5
+ },
+ {
+  "q": "investment property occupancy",
+  "any": [
+   "investment property",
+   "occupancy"
+  ],
+  "n": 5
+ },
+ {
+  "q": "second home vs primary residence",
+  "any": [
+   "second home",
+   "principal residence"
+  ],
+  "n": 5
+ },
+ {
+  "q": "home equity line payoff and subordination",
+  "any": [
+   "subordinat",
+   "heloc",
+   "home equity"
+  ],
+  "n": 5
+ },
+ {
+  "q": "construction to permanent loan",
+  "any": [
+   "construction"
+  ],
+  "n": 5
+ },
+ {
+  "q": "renovation loan fannie",
+  "any": [
+   "homestyle",
+   "renovation"
+  ],
+  "n": 5
+ },
+ {
+  "q": "homeready income limit",
+  "any": [
+   "homeready",
+   "income limit"
+  ],
+  "n": 5
+ },
+ {
+  "q": "homebuyer education requirement",
+  "any": [
+   "homeownership education",
+   "education",
+   "counseling"
+  ],
+  "n": 5
+ },
+ {
+  "q": "escrow waiver",
+  "any": [
+   "escrow"
+  ],
+  "n": 5
+ },
+ {
+  "q": "hazard insurance deductible",
+  "any": [
+   "deductible",
+   "hazard"
+  ],
+  "n": 5
+ },
+ {
+  "q": "title insurance requirements",
+  "any": [
+   "title"
+  ],
+  "n": 5
+ },
+ {
+  "q": "B2-1.5",
+  "any": [
+   "b2-1.5"
+  ],
+  "n": 5
+ },
+ {
+  "q": "1003 loan application",
+  "any": [
+   "application",
+   "1003"
+  ],
+  "n": 5
+ },
+ {
+  "q": "closing disclosure tolerance",
+  "any": [
+   "tolerance",
+   "closing disclosure"
+  ],
+  "n": 5
+ },
+ {
+  "q": "ability to repay rule",
+  "any": [
+   "ability-to-repay",
+   "ability to repay"
+  ],
+  "n": 5
+ },
+ {
+  "q": "high cost mortgage",
+  "any": [
+   "high-cost",
+   "high cost"
+  ],
+  "n": 5
+ },
+ {
+  "q": "B3-3.1-03",
+  "any": [
+   "b3-3.1-03"
+  ],
+  "n": 5
+ },
+ {
+  "q": "my borrower gets paid on a 1099 and has been in business 14 months",
+  "any": [
+   "self-employed",
+   "less than two years",
+   "two years"
+  ],
+  "n": 5
+ },
+ {
+  "q": "can a seller pay the buyer's closing costs",
+  "any": [
+   "interested party",
+   "closing costs"
+  ],
+  "n": 5
+ },
+ {
+  "q": "borrower has no savings, family will give money",
+  "any": [
+   "gift"
+  ],
+  "n": 5
+ },
+ {
+  "q": "what if the appraisal comes in under the contract price",
+  "any": [
+   "appraisal",
+   "value",
+   "contract price",
+   "sales price"
+  ],
+  "n": 5
+ },
+ {
+  "q": "how many months of reserves do I need",
+  "any": [
+   "reserves"
+  ],
+  "n": 5
+ },
+ {
+  "q": "do I need to count the spouse's debts",
+  "any": [
+   "spouse",
+   "community property",
+   "non-borrowing"
+  ],
+  "n": 5
+ },
+ {
+  "q": "loan to a person with a bankruptcy last year",
+  "any": [
+   "bankruptcy",
+   "waiting"
+  ],
+  "n": 5
+ },
+ {
+  "q": "is a tenant-occupied duplex eligible",
+  "any": [
+   "two-unit",
+   "2-unit",
+   "multi",
+   "units"
+  ],
+  "n": 5
+ },
+ {
+  "q": "borrower wants to buy a house with an in-ground pool",
+  "any": [
+   "property",
+   "pool"
+  ],
+  "n": 5
+ },
+ {
+  "q": "mortgage payment after interest rate buydown",
+  "any": [
+   "buydown"
+  ],
+  "n": 5
+ },
+ {
+  "q": "what counts as a large deposit",
+  "any": [
+   "large deposit"
+  ],
+  "n": 5
+ },
+ {
+  "q": "gaps in employment over six months",
+  "any": [
+   "gap",
+   "employment"
+  ],
+  "n": 5
+ },
+ {
+  "q": "income that is going to end soon",
+  "any": [
+   "continuance",
+   "three years",
+   "continue"
+  ],
+  "n": 5
+ },
+ {
+  "q": "borrower is retired and lives off investments",
+  "any": [
+   "retirement",
+   "dividend",
+   "interest",
+   "asset"
+  ],
+  "n": 5
+ },
+ {
+  "q": "how to qualify a borrower who recently got divorced",
+  "any": [
+   "divorce",
+   "alimony",
+   "child support"
+  ],
+  "n": 5
+ },
+ {
+  "q": "veteran buying with no money down",
+  "any": [
+   "down payment",
+   "entitlement",
+   "guaranty"
+  ],
+  "n": 5
+ },
+ {
+  "q": "who can be on a VA loan",
+  "any": [
+   "eligib",
+   "veteran",
+   "surviving spouse",
+   "certificate"
+  ],
+  "n": 5
+ },
+ {
+  "q": "fha loan after short sale",
+  "any": [
+   "short sale",
+   "foreclosure",
+   "waiting"
+  ],
+  "n": 5
+ },
+ {
+  "q": "is mortgage insurance required with less than 20 down",
+  "any": [
+   "mortgage insurance",
+   "20 percent",
+   "80"
+  ],
+  "n": 5
+ },
+ {
+  "q": "can the borrower use a gift for reserves",
+  "any": [
+   "gift",
+   "reserves"
+  ],
+  "n": 5
+ }
+]

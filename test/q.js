@@ -1,0 +1,2 @@
+const E=require('./harness.js'); const all=new Set(['Fannie','Freddie','FHA','VA','Other']);
+for(const q of process.argv.slice(2)){ for(const noprf of [false,true]){ const r=E.run(q,all,{prefix:true,noprf}); console.log((noprf?'[noprf] ':'[prf]   ')+q, r.P.prf?'prf='+r.P.prf.join(','):''); r.res.slice(0,5).forEach(([i,s])=>{const d=E.D[i];console.log('   ',s.toFixed(1),d.a,d.s||'',d.t.slice(0,70))});}}

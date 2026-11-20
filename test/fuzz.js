@@ -1,0 +1,4 @@
+const E=require('./harness.js'); const all=new Set(['Fannie','Freddie','FHA','VA','Other']);
+const qs=["","   ","a","?","(((","[a-z]+","$^.*","<script>alert(1)</script>","💥 emoji ✓","a".repeat(5000),"the and of to","1","203(k)","B3-","fha va fannie freddie","x y z w v u t s r q","\\\\","%00","ＤＴＩ","dti".repeat(300),"what is the maximum amount of money that a seller is allowed to contribute toward the buyer's closing costs on an fha loan for a second home that is also an investment property"];
+let bad=0,mx=0; for(const q of qs){ try{ const t=performance.now(); const r=E.run(q,all,{prefix:true}); mx=Math.max(mx,performance.now()-t); E.bestAnswer(r.res,r.P); }catch(e){bad++;console.log('CRASH',JSON.stringify(q.slice(0,40)),e.message);} }
+console.log('fuzz inputs',qs.length,'crashes',bad,'slowest ms',mx.toFixed(1));
