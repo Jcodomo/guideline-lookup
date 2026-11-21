@@ -49,3 +49,11 @@ node test/q.js "your query"   # see ranked results with and without feedback exp
 Add your own cases to `test/cases.json` (`{"q": "...", "any": ["words expected in the top 5"]}`).
 
 How it finds indirect questions: synonym map, phrase-intent map (a question is mapped to the wording the guides use), typo correction, prefix expansion, adjacent-word proximity boost, and a light pseudo-relevance feedback pass that borrows distinctive words from the best hits.
+
+## Ways to search (added 2026-11-21)
+- **Search operators:** `"exact words"`, `-word` to leave a word out, `in:fha` / `in:fannie` / `in:freddie` / `in:va` to search one guide; section codes such as `B3-3.1-01` jump straight to the section.
+- **Browse topics:** one-click topics (income, self-employed, gifts, large deposits, bankruptcy and foreclosure, DTI and reserves, condos, renovation, manufactured homes, co-borrowers, VA entitlement, student loans).
+- **Compare agencies:** the best match from Fannie Mae, Freddie Mac, FHA and VA side by side, each with its answer lines.
+- **In the reader:** find in this section (Enter / Shift+Enter between matches), Save (the Saved list), Copy link (opens the same section), and Related sections.
+- **Recently read** sections on the start screen, **voice search** where the browser supports it, and the keyboard: `/` to search, `↓`/`↑` (or `j`/`k`) through results, `Enter` to read, `Esc` back to the box.
+- `node test/ops.js` tests the operators.
