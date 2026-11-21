@@ -57,3 +57,21 @@ How it finds indirect questions: synonym map, phrase-intent map (a question is m
 - **In the reader:** find in this section (Enter / Shift+Enter between matches), Save (the Saved list), Copy link (opens the same section), and Related sections.
 - **Recently read** sections on the start screen, **voice search** where the browser supports it, and the keyboard: `/` to search, `↓`/`↑` (or `j`/`k`) through results, `Enter` to read, `Esc` back to the box.
 - `node test/ops.js` tests the operators.
+
+## Smarter search (added 2026-11-21)
+Ideas taken from [qdrant/page-search](https://github.com/qdrant/page-search) and [Aperio](https://github.com/aperio-search/aperio), rebuilt to run in the page with no server and no downloads:
+- **Meaning search** (`build_semantic.js` → `data/semantic.js`, 2 MB, loaded in the background): latent semantic analysis of the guides themselves cuts every section into ~150-word passages and learns 96-number "meaning" vectors for words and passages, so a question finds a passage that uses other words. It is mixed in for questions (how / can / does …, a question mark, or a long sentence) and whenever the words find little; a few keywords or a section title are matched by their words. Results found by meaning show the passage that matched.
+- **Typing mistakes:** swapped letters count as one mistake ("requriements"), long words may have two, the more common word wins, and the corrected words are used for the whole ranking.
+- **Word forms** (verify / verified / verification) and **accents** (é = e) match.
+- **Phrases as typed** ("gift of equity", "power of attorney") and **titles without their small words** rank first.
+- **500+ test searches:** `node test/make500.js` writes `test/cases500.json` (116 hand-written, 119 everyday questions, 200 sections found by their title, 80 with typing mistakes); `node test/run500.js [old index.html]` scores them (and compares); `node test/sweep.js 0 0.5` tries meaning-search weights.
+
+| 515 searches | before | now |
+|---|---|---|
+| found | 506 (98.3%) | 513 (99.6%) |
+| mean reciprocal rank | 0.955 | 0.979 |
+| sections by title | 198/200 | 200/200 |
+| with typing mistakes | 75/80 | 79/80 |
+| time per search (p50 / p95) | 1.5 / 6.4 ms | 2.6 / 9.6 ms |
+
+Rebuild the meaning data after a refresh: `node build_semantic.js` (refresh.bat does it when Node is installed).

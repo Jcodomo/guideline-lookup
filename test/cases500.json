@@ -1,0 +1,3988 @@
+[
+ {
+  "q": "borrower just started a new job",
+  "any": [
+   "new job",
+   "offer",
+   "start date",
+   "employment"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "how long after bankruptcy can I get a loan",
+  "any": [
+   "waiting period",
+   "bankruptcy"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "can my parents gift me the down payment",
+  "any": [
+   "gift"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "borrower deposited cash into account",
+  "any": [
+   "large deposit",
+   "deposit"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "does boarder income count",
+  "any": [
+   "boarder"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "can I use my 401k to qualify",
+  "any": [
+   "retirement",
+   "401"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "borrower is divorced and pays alimony",
+  "any": [
+   "alimony",
+   "divorce"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "credit score too low to qualify",
+  "any": [
+   "credit score"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "house is in a flood zone",
+  "any": [
+   "flood"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "home has solar panels",
+  "any": [
+   "solar"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "property on well and septic",
+  "any": [
+   "septic",
+   "well"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "borrower is not a us citizen",
+  "any": [
+   "non-permanent",
+   "permanent resident",
+   "lawful"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "borrower is on disability income",
+  "any": [
+   "disability"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "paying off collections before closing",
+  "any": [
+   "collection"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "tax lien on credit report",
+  "any": [
+   "tax lien"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "borrower has a judgment",
+  "any": [
+   "judgment"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "borrower owns several rental properties",
+  "any": [
+   "financed properties",
+   "rental"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "student loan in deferment",
+  "any": [
+   "deferment",
+   "deferred",
+   "student loan"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "borrower cosigned a car loan",
+  "any": [
+   "contingent liabilit",
+   "cosign",
+   "co-sign"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "car lease payment ending soon",
+  "any": [
+   "lease"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "accessory dwelling unit income",
+  "any": [
+   "accessory dwelling"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "airbnb short term rental income",
+  "any": [
+   "short-term rental",
+   "short term rental"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "property held in a trust",
+  "any": [
+   "trust"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "someone signing with power of attorney",
+  "any": [
+   "power of attorney"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "condo project in litigation",
+  "any": [
+   "litigation"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "co-op loans",
+  "any": [
+   "co-op",
+   "cooperative"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "FHA seller concessions limit",
+  "any": [
+   "interested party",
+   "concession",
+   "6 percent",
+   "6%"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "FHA minimum down payment",
+  "any": [
+   "3.5",
+   "minimum required investment",
+   "down payment"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "FHA streamline refinance",
+  "any": [
+   "streamline"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "FHA minimum credit score 580",
+  "any": [
+   "580"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "FHA condo approval",
+  "any": [
+   "condominium"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "FHA non occupying co-borrower",
+  "any": [
+   "non-occupying",
+   "non-occupant"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "FHA manufactured home foundation",
+  "any": [
+   "permanent foundation",
+   "manufactured"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "FHA mortgage insurance premium rates",
+  "any": [
+   "mortgage insurance premium",
+   "mip"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "FHA appraisal valid how long",
+  "any": [
+   "appraisal"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "FHA maximum DTI ratio",
+  "any": [
+   "debt-to-income",
+   "qualifying ratio",
+   "total fixed payment"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "FHA derogatory credit chapter 7",
+  "any": [
+   "chapter 7",
+   "bankruptcy"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "FHA gift funds",
+  "any": [
+   "gift"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "FHA collection accounts",
+  "any": [
+   "collection"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "FHA self employed",
+  "any": [
+   "self-employed",
+   "self employed"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "FHA rental income",
+  "any": [
+   "rental income"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "VA funding fee",
+  "any": [
+   "funding fee"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "VA entitlement restoration",
+  "any": [
+   "restoration",
+   "entitlement"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "VA IRRRL requirements",
+  "any": [
+   "interest rate reduction",
+   "irrrl"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "VA residual income",
+  "any": [
+   "residual income"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "VA peeling paint appraisal",
+  "any": [
+   "paint"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "veteran certificate of eligibility",
+  "any": [
+   "certificate of eligibility",
+   "coe"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "VA loan assumption",
+  "any": [
+   "assumption"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "VA cash out refinance",
+  "any": [
+   "cash-out",
+   "cash out"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "VA loan limit",
+  "any": [
+   "loan limit",
+   "entitlement"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "bankrupcy waiting period",
+  "any": [
+   "bankruptcy"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "morgage insurance cancelation",
+  "any": [
+   "mortgage insurance"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "debt to incom ratio",
+  "any": [
+   "debt-to-income",
+   "debt to income"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "forclosure waiting period",
+  "any": [
+   "foreclosure"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "appriasal age requirement",
+  "any": [
+   "appraisal"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "DTI limits",
+  "any": [
+   "debt-to-income"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "LTV limits",
+  "any": [
+   "loan-to-value",
+   "ltv"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "HOA dues in DTI",
+  "any": [
+   "homeowners association",
+   "hoa",
+   "condo"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "REO owned property",
+  "any": [
+   "real estate owned",
+   "reo"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "what is the maximum DTI",
+  "any": [
+   "debt-to-income",
+   "dti"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "how much can a seller contribute",
+  "any": [
+   "interested party",
+   "seller",
+   "contribution"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "what documents do I need for self employed",
+  "any": [
+   "self-employed",
+   "tax return"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "how do I calculate overtime income",
+  "any": [
+   "overtime"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "how is bonus income averaged",
+  "any": [
+   "bonus"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "how to count commission income",
+  "any": [
+   "commission"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "part time job second job income",
+  "any": [
+   "part-time",
+   "second job"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "social security income gross up",
+  "any": [
+   "social security",
+   "gross up",
+   "non-taxable"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "child support income documentation",
+  "any": [
+   "child support"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "rental income from schedule E",
+  "any": [
+   "schedule e",
+   "rental income"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "employer relocation help",
+  "any": [
+   "relocation"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "down payment from savings and sale of home",
+  "any": [
+   "sale of",
+   "down payment",
+   "asset"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "sweat equity down payment",
+  "any": [
+   "sweat equity"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "earnest money deposit source",
+  "any": [
+   "earnest money"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "credit report too old",
+  "any": [
+   "credit report",
+   "age of"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "mortgage with no credit history",
+  "any": [
+   "nontraditional",
+   "non-traditional",
+   "no credit"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "rent payment history as credit",
+  "any": [
+   "rent",
+   "payment history",
+   "nontraditional"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "home with unpermitted addition",
+  "any": [
+   "unpermitted",
+   "legal",
+   "zoning",
+   "additions"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "zoning violation on the property",
+  "any": [
+   "zoning",
+   "legal nonconforming"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "property is a mixed use building",
+  "any": [
+   "mixed",
+   "commercial"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "rural property acreage",
+  "any": [
+   "acreage",
+   "rural",
+   "acre"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "investment property occupancy",
+  "any": [
+   "investment property",
+   "occupancy"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "second home vs primary residence",
+  "any": [
+   "second home",
+   "principal residence"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "home equity line payoff and subordination",
+  "any": [
+   "subordinat",
+   "heloc",
+   "home equity"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "construction to permanent loan",
+  "any": [
+   "construction"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "renovation loan fannie",
+  "any": [
+   "homestyle",
+   "renovation"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "homeready income limit",
+  "any": [
+   "homeready",
+   "income limit"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "homebuyer education requirement",
+  "any": [
+   "homeownership education",
+   "education",
+   "counseling"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "escrow waiver",
+  "any": [
+   "escrow"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "hazard insurance deductible",
+  "any": [
+   "deductible",
+   "hazard"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "title insurance requirements",
+  "any": [
+   "title"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "B2-1.5",
+  "any": [
+   "b2-1.5"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "1003 loan application",
+  "any": [
+   "application",
+   "1003"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "closing disclosure tolerance",
+  "any": [
+   "tolerance",
+   "closing disclosure"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "ability to repay rule",
+  "any": [
+   "ability-to-repay",
+   "ability to repay"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "high cost mortgage",
+  "any": [
+   "high-cost",
+   "high cost"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "B3-3.1-03",
+  "any": [
+   "b3-3.1-03"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "my borrower gets paid on a 1099 and has been in business 14 months",
+  "any": [
+   "self-employed",
+   "less than two years",
+   "two years"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "can a seller pay the buyer's closing costs",
+  "any": [
+   "interested party",
+   "closing costs"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "borrower has no savings, family will give money",
+  "any": [
+   "gift"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "what if the appraisal comes in under the contract price",
+  "any": [
+   "appraisal",
+   "value",
+   "contract price",
+   "sales price"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "how many months of reserves do I need",
+  "any": [
+   "reserves"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "do I need to count the spouse's debts",
+  "any": [
+   "spouse",
+   "community property",
+   "non-borrowing"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "loan to a person with a bankruptcy last year",
+  "any": [
+   "bankruptcy",
+   "waiting"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "is a tenant-occupied duplex eligible",
+  "any": [
+   "two-unit",
+   "2-unit",
+   "multi",
+   "units"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "borrower wants to buy a house with an in-ground pool",
+  "any": [
+   "property",
+   "pool"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "mortgage payment after interest rate buydown",
+  "any": [
+   "buydown"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "what counts as a large deposit",
+  "any": [
+   "large deposit"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "gaps in employment over six months",
+  "any": [
+   "gap",
+   "employment"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "income that is going to end soon",
+  "any": [
+   "continuance",
+   "three years",
+   "continue"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "borrower is retired and lives off investments",
+  "any": [
+   "retirement",
+   "dividend",
+   "interest",
+   "asset"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "how to qualify a borrower who recently got divorced",
+  "any": [
+   "divorce",
+   "alimony",
+   "child support"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "veteran buying with no money down",
+  "any": [
+   "down payment",
+   "entitlement",
+   "guaranty"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "who can be on a VA loan",
+  "any": [
+   "eligib",
+   "veteran",
+   "surviving spouse",
+   "certificate"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "fha loan after short sale",
+  "any": [
+   "short sale",
+   "foreclosure",
+   "waiting"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "is mortgage insurance required with less than 20 down",
+  "any": [
+   "mortgage insurance",
+   "20 percent",
+   "80"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "can the borrower use a gift for reserves",
+  "any": [
+   "gift",
+   "reserves"
+  ],
+  "n": 5,
+  "kind": "hand"
+ },
+ {
+  "q": "how many months of bank statements do I need",
+  "any": [
+   "bank statement",
+   "two months",
+   "most recent"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "can a borrower use crypto for the down payment",
+  "any": [
+   "virtual currency",
+   "cryptocurrency"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "borrower is on maternity leave",
+  "any": [
+   "temporary leave",
+   "leave"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "income from a second job",
+  "any": [
+   "secondary employment",
+   "second job",
+   "multiple jobs"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "how to calculate overtime income",
+  "any": [
+   "overtime"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "bonus income less than two years",
+  "any": [
+   "bonus"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "commission income documentation",
+  "any": [
+   "commission"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "using retirement account for reserves",
+  "any": [
+   "retirement",
+   "reserves"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "401k loan payment does it count in dti",
+  "any": [
+   "retirement",
+   "401",
+   "loan"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "child support income how long must it continue",
+  "any": [
+   "child support",
+   "three years",
+   "continuance"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "alimony as income",
+  "any": [
+   "alimony"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "social security income gross up",
+  "any": [
+   "social security",
+   "gross",
+   "non-taxable"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "disability income requirements",
+  "any": [
+   "disability"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "pension income documentation",
+  "any": [
+   "pension",
+   "retirement income"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "rental income from the subject property two to four units",
+  "any": [
+   "rental income",
+   "two- to four-unit",
+   "units"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "using lease agreement for rental income",
+  "any": [
+   "lease"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "vacancy factor rental income 75 percent",
+  "any": [
+   "75%",
+   "vacancy"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "foreclosure waiting period",
+  "any": [
+   "foreclosure",
+   "waiting period"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "short sale waiting period",
+  "any": [
+   "short sale",
+   "preforeclosure"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "deed in lieu of foreclosure",
+  "any": [
+   "deed-in-lieu",
+   "deed in lieu"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "chapter 13 bankruptcy still paying",
+  "any": [
+   "chapter 13"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "collections and charge offs must they be paid",
+  "any": [
+   "collection",
+   "charge-off"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "judgments and liens",
+  "any": [
+   "judgment",
+   "lien"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "authorized user tradelines",
+  "any": [
+   "authorized user"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "borrower has no credit score",
+  "any": [
+   "nontraditional credit",
+   "no credit score",
+   "credit score"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "minimum credit score fha",
+  "any": [
+   "credit score",
+   "minimum"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "disputed accounts on the credit report",
+  "any": [
+   "disputed"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "student loan in deferment payment",
+  "any": [
+   "deferred",
+   "student loan"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "installment debt with less than ten months left",
+  "any": [
+   "ten months",
+   "10 months"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "co-signed debt paid by someone else",
+  "any": [
+   "contingent liabilit",
+   "co-signed",
+   "cosigned"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "business debt in borrower's name",
+  "any": [
+   "business debt"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "timeshare loan",
+  "any": [
+   "timeshare"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "solar panel lease",
+  "any": [
+   "solar"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "condo questionnaire requirements",
+  "any": [
+   "condo",
+   "questionnaire",
+   "project"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "non-warrantable condo",
+  "any": [
+   "condo",
+   "project"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "cooperative share loan",
+  "any": [
+   "co-op",
+   "cooperative"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "manufactured home on a permanent foundation",
+  "any": [
+   "manufactured",
+   "foundation"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "accessory dwelling unit income",
+  "any": [
+   "accessory dwelling",
+   "adu"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "property in a flood zone insurance",
+  "any": [
+   "flood"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "hazard insurance deductible",
+  "any": [
+   "deductible",
+   "insurance"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "appraisal is older than 120 days",
+  "any": [
+   "appraisal",
+   "120 days",
+   "age"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "appraisal update form 1004d",
+  "any": [
+   "1004d",
+   "update"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "desktop appraisal",
+  "any": [
+   "desktop"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "appraisal waiver",
+  "any": [
+   "waiver",
+   "value acceptance"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "subject to repairs appraisal completion",
+  "any": [
+   "completion",
+   "repairs"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "property with peeling paint",
+  "any": [
+   "paint",
+   "lead"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "well and septic requirements",
+  "any": [
+   "well",
+   "septic"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "private road maintenance agreement",
+  "any": [
+   "private road",
+   "road"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "cash out refinance seasoning",
+  "any": [
+   "cash-out",
+   "seasoning"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "delayed financing after cash purchase",
+  "any": [
+   "delayed financing"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "rate and term refinance",
+  "any": [
+   "limited cash-out",
+   "rate and term",
+   "no cash-out"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "streamline refinance fha",
+  "any": [
+   "streamline"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "buying out a co-owner",
+  "any": [
+   "buyout",
+   "co-owner",
+   "co-owned"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "interested party contributions limit",
+  "any": [
+   "interested party",
+   "contribution"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "seller concessions over the limit",
+  "any": [
+   "interested party",
+   "concession"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "earnest money deposit verification",
+  "any": [
+   "earnest money",
+   "deposit"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "borrowed funds for down payment",
+  "any": [
+   "borrowed",
+   "secured"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "sale of current home proceeds",
+  "any": [
+   "sale",
+   "proceeds"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "business assets for down payment",
+  "any": [
+   "business assets",
+   "business account"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "employer assistance with down payment",
+  "any": [
+   "employer assistance",
+   "employer"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "down payment assistance program",
+  "any": [
+   "community seconds",
+   "assistance",
+   "secondary financing"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "gift of equity from a family member",
+  "any": [
+   "gift of equity"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "who can give a gift",
+  "any": [
+   "relative",
+   "donor",
+   "gift"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "gift letter requirements",
+  "any": [
+   "gift letter"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "reserves for multiple financed properties",
+  "any": [
+   "financed properties",
+   "reserves"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "investment property minimum down payment",
+  "any": [
+   "investment property",
+   "ltv"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "second home occupancy rules",
+  "any": [
+   "second home"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "non-occupant co-borrower ltv",
+  "any": [
+   "non-occupant"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "non permanent resident alien",
+  "any": [
+   "non-permanent resident",
+   "resident alien"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "daca borrower eligibility",
+  "any": [
+   "daca",
+   "deferred action"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "power of attorney at closing",
+  "any": [
+   "power of attorney"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "borrower living in a trust",
+  "any": [
+   "trust",
+   "inter vivos"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "ltv limits for a two unit property",
+  "any": [
+   "two-unit",
+   "2-unit",
+   "ltv"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "high balance loan limits",
+  "any": [
+   "high-balance",
+   "loan limit"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "mortgage insurance cancellation",
+  "any": [
+   "mortgage insurance",
+   "termination",
+   "cancel"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "fha upfront mortgage insurance premium",
+  "any": [
+   "upfront",
+   "ufmip",
+   "premium"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "annual mip duration",
+  "any": [
+   "annual",
+   "mip"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "203k limited repairs",
+  "any": [
+   "203(k)",
+   "limited"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "homestyle renovation contingency reserve",
+  "any": [
+   "contingency",
+   "homestyle"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "renovation draws and inspections",
+  "any": [
+   "draw",
+   "inspection"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "energy efficient mortgage",
+  "any": [
+   "energy efficient"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "temporary buydown",
+  "any": [
+   "buydown",
+   "temporary"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "adjustable rate mortgage qualifying rate",
+  "any": [
+   "adjustable",
+   "arm",
+   "qualifying rate"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "interest only loans",
+  "any": [
+   "interest-only",
+   "interest only"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "balloon mortgage",
+  "any": [
+   "balloon"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "self employed less than two years",
+  "any": [
+   "self-employ",
+   "less than two years",
+   "12 months"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "k-1 income distributions",
+  "any": [
+   "k-1",
+   "distribution"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "schedule c depreciation add back",
+  "any": [
+   "depreciation",
+   "schedule c"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "s corporation income",
+  "any": [
+   "s corporation",
+   "1120s",
+   "1120-s"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "partnership income 1065",
+  "any": [
+   "partnership",
+   "1065"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "profit and loss statement required",
+  "any": [
+   "profit and loss",
+   "p&l"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "declining income self employed",
+  "any": [
+   "declin"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "tax transcripts 4506-c",
+  "any": [
+   "4506",
+   "transcript"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "verbal verification of employment timing",
+  "any": [
+   "verbal verification",
+   "verification of employment"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "gap in employment explanation",
+  "any": [
+   "gap"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "job offer start date after closing",
+  "any": [
+   "offer",
+   "start"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "seasonal employment",
+  "any": [
+   "seasonal"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "military income bah",
+  "any": [
+   "military",
+   "allowance"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "foreign income",
+  "any": [
+   "foreign income",
+   "foreign"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "tip income",
+  "any": [
+   "tip"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "boarder income fha",
+  "any": [
+   "boarder"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "housing expense ratio",
+  "any": [
+   "housing expense",
+   "ratio"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "maximum dti with compensating factors",
+  "any": [
+   "compensating factor",
+   "debt-to-income"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "residual income va",
+  "any": [
+   "residual income"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "va funding fee exemption",
+  "any": [
+   "funding fee",
+   "exempt"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "va entitlement restoration",
+  "any": [
+   "entitlement",
+   "restor"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "va minimum property requirements",
+  "any": [
+   "minimum property",
+   "mpr"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "va irrrl seasoning",
+  "any": [
+   "irrrl"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "usda income limits",
+  "any": [
+   "usda",
+   "income"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "hud repo property",
+  "any": [
+   "hud",
+   "real estate owned",
+   "reo"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "identity of interest transaction",
+  "any": [
+   "identity of interest",
+   "identity-of-interest"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "non arms length purchase",
+  "any": [
+   "arm's length",
+   "arms length",
+   "non-arm"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "property flipping 90 day rule",
+  "any": [
+   "flip",
+   "90 days",
+   "resale"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "escrow for taxes and insurance",
+  "any": [
+   "escrow"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "closing cost financing",
+  "any": [
+   "closing cost"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "title insurance requirements",
+  "any": [
+   "title insurance"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "survey requirements",
+  "any": [
+   "survey"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "eligible property types",
+  "any": [
+   "property type",
+   "eligible"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "mixed use property",
+  "any": [
+   "mixed-use",
+   "mixed use"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "can my parents help with the down payment",
+  "any": [
+   "gift"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "grandma wants to pay closing costs",
+  "any": [
+   "gift"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "my brother is giving me money for the house",
+  "any": [
+   "gift"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "income that is going to end soon",
+  "any": [
+   "continuance",
+   "continue"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "how long must income continue",
+  "any": [
+   "continuance",
+   "three years",
+   "continue"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "my alimony stops next year",
+  "any": [
+   "alimony"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "what if the appraisal comes in low",
+  "any": [
+   "appraisal",
+   "value"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "can I buy a house with a roommate paying rent",
+  "any": [
+   "boarder",
+   "rent"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "borrower got a raise last month",
+  "any": [
+   "increase",
+   "pay raise",
+   "current"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "i was fired two years ago",
+  "any": [
+   "gap",
+   "employment history",
+   "employment"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "house has a big crack in the foundation",
+  "any": [
+   "foundation",
+   "structural"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "seller is paying my closing costs",
+  "any": [
+   "interested party",
+   "seller"
+  ],
+  "n": 5,
+  "kind": "question"
+ },
+ {
+  "q": "payment requirements",
+  "title": "Payment Requirements",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "projects special considerations",
+  "title": "Projects with Special Considerations",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "waiver enforcement relief representations warranties",
+  "title": "Waiver and Enforcement Relief of Representations and Warranties",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "title insurance coverage considerations",
+  "title": "Title Insurance Coverage Considerations",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "requirements units pud projects",
+  "title": "Requirements for Units in PUD Projects",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "submission financial statements reports",
+  "title": "Submission of Financial Statements and Reports",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "servicing transfers",
+  "title": "Servicing Transfers",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "information liabilities",
+  "title": "Information on Liabilities",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "funds secured asset",
+  "title": "Funds Secured by an Asset",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "post-closing quality control review approval",
+  "title": "Post-Closing Quality Control Review of Approval Conditions Underwriting Decisions Data and Documentation",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "mbs pool data documents",
+  "title": "MBS Pool Data and Documents",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "weighted-average arm mbs",
+  "title": "Weighted-Average ARM MBS",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "efforts commitment process",
+  "title": "Efforts Commitment Process",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "requirements loans nontraditional credit",
+  "title": "Requirements for Loans with Nontraditional Credit",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "commitment process",
+  "title": "Commitment Process",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "information analyzing individual tax returns",
+  "title": "Information on Analyzing Individual Tax Returns",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "eligibility loans pooled into mbs",
+  "title": "Eligibility for Loans Pooled into MBS",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "equity overview",
+  "title": "Equity Overview",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "ltv refinance loan borrower eligibility",
+  "title": "LTV Refinance Loan and Borrower Eligibility",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "conversion construction-to-permanent financing single-closing transactions",
+  "title": "Conversion of Construction-to-Permanent Financing Single-Closing Transactions",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "land trust appraisal requirements",
+  "title": "Land Trust Appraisal Requirements",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "arm converted arm resale commitments",
+  "title": "ARM and Converted ARM Resale Commitments",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "education housing counseling",
+  "title": "Education and Housing Counseling",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "hazards appraisal requirements",
+  "title": "Hazards Appraisal Requirements",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "high-balance mortgage loan eligibility underwriting",
+  "title": "High-Balance Mortgage Loan Eligibility and Underwriting",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "insurance requirements individual units project",
+  "title": "Insurance Requirements for Individual Units in a Project Development",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "ltv refinance alternative qualification path",
+  "title": "LTV Refinance Alternative Qualification Path",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "mortgage payment history",
+  "title": "Mortgage Payment History",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "note provisions language requirements",
+  "title": "Note Provisions and Language Requirements",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "requirements verifying completion postponed improvements",
+  "title": "Requirements for Verifying Completion and Postponed Improvements",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "return transcript documentation requirements",
+  "title": "Return and Transcript Documentation Requirements",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "vivos revocable trusts",
+  "title": "Vivos Revocable Trusts",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "information about mandatory commitment pricing fees",
+  "title": "Information about Mandatory Commitment Pricing and Fees",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "government mortgage loan requirements",
+  "title": "Government Mortgage Loan Requirements",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "credit certificates",
+  "title": "Credit Certificates",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "bonus commission overtime tip income",
+  "title": "Bonus Commission Overtime and Tip Income",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "delivering emortgages fannie mae",
+  "title": "Delivering eMortgages to Fannie Mae",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "refresh improvements existing properties",
+  "title": "Refresh for Improvements on Existing Properties",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "factory-built housing modular prefabricated panelized sectional housing",
+  "title": "Factory-Built Housing Modular Prefabricated Panelized or Sectional Housing",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "information delivering loan data documents",
+  "title": "Information on Delivering Loan Data and Documents",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "income subject property short-term rental",
+  "title": "Income from the Subject Property Short-Term Rental",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "gains income",
+  "title": "Gains Income",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "acceptance property data",
+  "title": "Acceptance Property Data",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "quality matters",
+  "title": "Quality Matters",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "buyup buydown ratios calculating payments charges",
+  "title": "Buyup and Buydown Ratios and Calculating Payments or Charges",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "requirements notes",
+  "title": "Requirements for Notes",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "arms mbs",
+  "title": "ARMs in MBS",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "credit report data",
+  "title": "Credit Report Data",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "risk assessment",
+  "title": "Risk Assessment",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "income loss reported irs form 1065 irs form 1120s schedule k-1",
+  "title": "Income or Loss Reported on IRS Form 1065 or IRS Form 1120S Schedule K-1",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "adjustments comparable sales",
+  "title": "Adjustments to Comparable Sales",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "approve ineligible recommendations",
+  "title": "Approve Ineligible Recommendations",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "unsecured loans",
+  "title": "Unsecured Loans",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "property insurance requirements all property types",
+  "title": "Property Insurance Requirements for All Property Types",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "actions environmental hazard assessments below",
+  "title": "Actions for Environmental Hazard Assessments Below Standards",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "insurance requirements all property types",
+  "title": "Insurance Requirements for All Property Types",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "income loss reported irs form 1040 schedule c",
+  "title": "Income or Loss Reported on IRS Form 1040 Schedule C",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "asset verification",
+  "title": "Asset Verification",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "environmental hazards",
+  "title": "Environmental Hazards",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "fixed-rate loans",
+  "title": "Fixed-Rate Loans",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "data documentation delivery requirements",
+  "title": "Data and Documentation Delivery Requirements",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "establishing mbs trading account",
+  "title": "Establishing an MBS Trading Account",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "conversion construction-to-permanent financing overview",
+  "title": "Conversion of Construction-to-Permanent Financing Overview",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "requirements credit reports",
+  "title": "Requirements for Credit Reports",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "factors evaluated du",
+  "title": "Factors Evaluated by DU",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "insurance requirements one-to four-unit properties",
+  "title": "Insurance Requirements for One-to Four-Unit Properties",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "custody mortgage documents",
+  "title": "Custody of Mortgage Documents",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "comparison approach appraisal report",
+  "title": "Comparison Approach of the Appraisal Report",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "property eligibility underwriting considerations factory-built",
+  "title": "Property Eligibility and Underwriting Considerations Factory-Built Housing",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "mortgage loan borrower eligibility",
+  "title": "Mortgage Loan and Borrower Eligibility",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "electronic registration systems mers inc",
+  "title": "Electronic Registration Systems MERS Inc",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "site appraisal report",
+  "title": "Site of the Appraisal Report",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "loans resale restrictions eligibility collateral",
+  "title": "Loans with Resale Restrictions Eligibility Collateral and Delivery Requirements",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "disaster-related limited cash-out refinance flexibilities",
+  "title": "Disaster-Related Limited Cash-Out Refinance Flexibilities",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "mae qc file request submission",
+  "title": "Mae QC File Request and Submission Requirements",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "information fannie mae qc reviews",
+  "title": "Information on Fannie Mae QC Reviews",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "post-closing quality control reverifications",
+  "title": "Post-Closing Quality Control Reverifications",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "adjustable-rate mortgages arms",
+  "title": "Adjustable-Rate Mortgages ARMs",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "credit report analysis",
+  "title": "Credit Report Analysis",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "accuracy du data du tolerances errors credit report",
+  "title": "Accuracy of DU Data DU Tolerances and Errors in the Credit Report",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "long-term disability income",
+  "title": "Long-term Disability Income",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "conversion construction-to-permanent financing two-closing transactions",
+  "title": "Conversion of Construction-to-Permanent Financing Two-Closing Transactions",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "income non-subject property departing residence",
+  "title": "Income from Non-Subject Property Departing Residence",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "requirements credit scores",
+  "title": "Requirements for Credit Scores",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "requirements certain assets du",
+  "title": "Requirements for Certain Assets in DU",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "efforts commitment pricing periods fees",
+  "title": "Efforts Commitment Pricing Periods and Fees",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "interests appraisal requirements",
+  "title": "Interests Appraisal Requirements",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "payment income",
+  "title": "Payment Income",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "report forms exhibits",
+  "title": "Report Forms and Exhibits",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "high-balance pricing mortgage insurance special",
+  "title": "High-Balance Pricing Mortgage Insurance Special Feature Codes and Delivery Limitations",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "housing pricing mortgage insurance loan delivery requirements",
+  "title": "Housing Pricing Mortgage Insurance and Loan Delivery Requirements",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "bond errors omissions coverage provisions",
+  "title": "Bond and Errors and Omissions Coverage Provisions",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "review appraisal report",
+  "title": "Review of the Appraisal Report",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "legal documents",
+  "title": "Legal Documents",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "financed properties same borrower",
+  "title": "Financed Properties for the Same Borrower",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "stock units restricted stock employment income",
+  "title": "Stock Units and Restricted Stock Employment Income",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "number types nontraditional credit references",
+  "title": "Number and Types of Nontraditional Credit References",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "mae s technology products",
+  "title": "Mae s Technology Products",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "servicing arrangements",
+  "title": "Servicing Arrangements",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "seconds shared appreciation transactions",
+  "title": "Seconds Shared Appreciation Transactions",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "life-of-loan representations warranties",
+  "title": "Life-of-Loan Representations and Warranties",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "documentation assessment nontraditional credit history",
+  "title": "Documentation and Assessment of a Nontraditional Credit History",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "resale restriction loan eligibility requirements",
+  "title": "Resale Restriction Loan Eligibility Requirements",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "bond policy requirements",
+  "title": "Bond Policy Requirements",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "selection criteria",
+  "title": "Selection Criteria",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "seller servicer eligibility",
+  "title": "Seller Servicer Eligibility",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "insurer requirements",
+  "title": "Insurer Requirements",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "initiating mbs sale",
+  "title": "Initiating an MBS Sale",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "review additional eligibility requirements units",
+  "title": "Review Additional Eligibility Requirements for Units in New and Newly Converted Condo Projects",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "interest payments regularly amortizing mortgages",
+  "title": "Interest Payments for Regularly Amortizing Mortgages",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "money deposit",
+  "title": "Money Deposit",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "requirements security instruments",
+  "title": "Requirements for Security Instruments",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "analysis reconciliation",
+  "title": "Analysis and Reconciliation",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "submission irrevocable limited powers attorney",
+  "title": "Submission of Irrevocable Limited Powers of Attorney",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "refer caution recommendations",
+  "title": "Refer with Caution Recommendations",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "income information",
+  "title": "Income Information",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "nature mortgage transaction",
+  "title": "Nature of Mortgage Transaction",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "payoff installment land contract requirements",
+  "title": "Payoff of Installment Land Contract Requirements",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "fidelity crime insurance requirements project",
+  "title": "Fidelity Crime Insurance Requirements for Project Developments",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "disclosure information appraisers",
+  "title": "Disclosure of Information to Appraisers",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "hud-guaranteed 184 mortgages",
+  "title": "HUD-Guaranteed 184 Mortgages",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "housing legal considerations",
+  "title": "Housing Legal Considerations",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "du requirements liability assessment",
+  "title": "DU Requirements for Liability Assessment",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "stocks stock options bonds mutual",
+  "title": "Stocks Stock Options Bonds and Mutual Funds",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "ownership mortgage loans prior purchase securitization third-party security interests",
+  "title": "Ownership of Mortgage Loans Prior to Purchase or Securitization and Third-Party Security Interests",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "calculating weighted-average pool accrual rates arm flex pools using fixed mbs margin",
+  "title": "Calculating the Weighted-Average Pool Accrual Rates for ARM Flex Pools Using a Fixed MBS Margin",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "validation service",
+  "title": "Validation Service",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "publication legal documents",
+  "title": "Publication of Legal Documents",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "appraisal dataset uad uniform collateral",
+  "title": "Appraisal Dataset UAD and the Uniform Collateral Data Portal UCDP",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "repurchases make whole payments requested",
+  "title": "Repurchases and Make Whole Payments Requested by Fannie Mae",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "savings community savings funds",
+  "title": "Savings Community Savings Funds",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "secured homepath properties",
+  "title": "Secured by HomePath Properties",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "waiver project review",
+  "title": "Waiver of Project Review",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "refinancing practices",
+  "title": "Refinancing Practices",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "presettlement information",
+  "title": "Presettlement Information",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "payee codes",
+  "title": "Payee Codes",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "hazard assessments",
+  "title": "Hazard Assessments",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "verification employment",
+  "title": "Verification of Employment",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "appraisal practices",
+  "title": "Appraisal Practices",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "appraisal requirements",
+  "title": "Appraisal Requirements",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "vivos revocable trust mortgage documentation",
+  "title": "Vivos Revocable Trust Mortgage Documentation and Signature Requirements",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "age use requirements",
+  "title": "Age and Use Requirements",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "partnership returns partnership llc",
+  "title": "Partnership Returns for a Partnership or LLC",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "invalidation limited waiver representations warranties",
+  "title": "Invalidation of Limited Waiver of Representations and Warranties",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "texas 50 6 loan underwriting collateral closing considerations",
+  "title": "Texas 50 a 6 Loan Underwriting Collateral and Closing Considerations",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "approve eligible recommendations",
+  "title": "Approve Eligible Recommendations",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "resale restrictions general information",
+  "title": "With Resale Restrictions General Information",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "rd-guaranteed mortgages",
+  "title": "RD-Guaranteed Mortgages",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "condition quality construction improvements",
+  "title": "Condition and Quality of Construction of the Improvements",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "lending practices",
+  "title": "Lending Practices",
+  "kind": "known-fannie",
+  "n": 3
+ },
+ {
+  "q": "9 hud certification label",
+  "title": "9 HUD Certification Label",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "what constitutes execution contract 24 cfr 235 310 issuance form hud-",
+  "title": "A What Constitutes Execution Of The Contract 24 CFR 235 310 Issuance of form HUD-",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "lending license s",
+  "title": "q Lending License s",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "use power attorney closing",
+  "title": "A Use of Power of Attorney at Closing",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "1 fha appraiser roster",
+  "title": "1 FHA Appraiser Roster",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "maximum property preservation allowances 1775",
+  "title": "A MAXIMUM PROPERTY PRESERVATION ALLOWANCES 1775",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "programs products - construction permanent",
+  "title": "Programs and Products - Construction to Permanent",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "contents hecm application package",
+  "title": "i Contents of the HECM Application Package",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "fha appraisal requirements market conditions changing markets",
+  "title": "F FHA Appraisal Requirements for Market Conditions and Changing Markets",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "quality control other participants",
+  "title": "B QUALITY CONTROL OF OTHER PARTICIPANTS",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "conditions refinance loan type",
+  "title": "L Conditions for Refinance by Loan Type",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "sales comparison approach value",
+  "title": "v Sales Comparison Approach to Value",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "3 loan level monitoring",
+  "title": "3 Loan Level Monitoring",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "substitution hazard 10 10 15 10 10 10 10 10 10 10",
+  "title": "Substitution of Hazard 10 10 15 10 10 10 10 10 10 10",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "appendix 5 0 - hud",
+  "title": "APPENDIX 5 0 - HUD SCHEDULE OF STANDARD POSSESSORY",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "deferred obligations manual",
+  "title": "F Deferred Obligations Manual",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "where cost improvement paid using",
+  "title": "G Where The Cost Of An Improvement Is Paid Using A Monthly Installment Payment Plan",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "investment income total",
+  "title": "J Investment Income TOTAL",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "claim type 02 - assignment",
+  "title": "b Claim Type 02 - Assignment or Single Family Loan Sale Program",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "verification military service",
+  "title": "C Verification of Military Service",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "claims filed hermit",
+  "title": "D Claims Filed in HERMIT",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "large supervised mortgagee",
+  "title": "B Large Supervised Mortgagee",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "modification without hud approval",
+  "title": "A Modification without HUD Approval",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "business license registration",
+  "title": "A Business License or Registration",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "note assignment not original",
+  "title": "v Note and or Assignment Not an Original",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "hud homes - land use restriction addendum",
+  "title": "E HUD Homes - Land Use Restriction Addendum",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "requirements credit report total",
+  "title": "A Requirements for the Credit Report TOTAL",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "sale property acquired through foreclosure dil",
+  "title": "e Sale of Property Acquired through Foreclosure or DIL",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "2 income sources excluded income",
+  "title": "2 Income Sources Excluded Income from the following sources must NOT be",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "general hecm insurance eligibility",
+  "title": "b General HECM Insurance Eligibility",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "project approval submission",
+  "title": "Project Approval Submission",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "borrower's eligible non-borrowing spouse's authorization",
+  "title": "D Borrower's and Eligible Non-Borrowing Spouse's Authorization for Use of",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "living units under separate ownership",
+  "title": "B Living Units Under Separate Ownership",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "loan balance default date",
+  "title": "f Loan Balance as of Default Date",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "1 checking savings accounts",
+  "title": "1 Checking Savings Accounts",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "disputed derogatory credit accounts",
+  "title": "F Disputed Derogatory Credit Accounts",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "annuities similar manual",
+  "title": "N Annuities or Similar Manual",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "duties surviving entity",
+  "title": "B Duties of a Surviving Entity",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "1 property disposition property improvement loans",
+  "title": "1 Property Disposition for Property Improvement Loans",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "1 borrower ssn identity",
+  "title": "1 Borrower SSN and or Identity",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "state typical preferred first legal",
+  "title": "State Typical Preferred First Legal Action to Reasonable",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "simple 150 434 442 444",
+  "title": "Simple 150 434 442 444",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "hud certification label",
+  "title": "A HUD Certification Label",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "use total mortgage scorecard assumptions",
+  "title": "D Use of TOTAL Mortgage Scorecard for Assumptions",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "flood insurance existing construction",
+  "title": "D Flood Insurance Existing Construction",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "handbook 4000 1 official pdf updates",
+  "title": "Handbook 4000 1 official PDF and updates",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "1 this transmits",
+  "title": "1 This Transmits",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "hud's loss mitigation option waterfall",
+  "title": "v HUD's Loss Mitigation Option Waterfall",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "grass cut schedule",
+  "title": "C GRASS CUT SCHEDULE",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "termination mip payments",
+  "title": "D Termination of MIP Payments",
+  "kind": "known-fha",
+  "n": 5
+ },
+ {
+  "q": "mrtgage loan borrower eligibility",
+  "title": "Mortgage Loan and Borrower Eligibility",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "adjustable-rate motgages arms",
+  "title": "Adjustable-Rate Mortgages ARMs",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "equty overview",
+  "title": "Equity Overview",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "requiremenst verifying completion posptoned iprovements",
+  "title": "Requirements for Verifying Completion and Postponed Improvements",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "quailty mattres",
+  "title": "Quality Matters",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "bond policy requirmeents",
+  "title": "Bond Policy Requirements",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "du requriements laibility assessment",
+  "title": "DU Requirements for Liability Assessment",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "boarder incme fha",
+  "any": [
+   "boarder"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "mae qc file request subission",
+  "title": "Mae QC File Request and Submission Requirements",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "requireements notes",
+  "title": "Requirements for Notes",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "porperty in a flood zone insurance",
+  "any": [
+   "flood"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "can I buy a house with a roommate payign rent",
+  "any": [
+   "boarder",
+   "rent"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "can a borrower use crypto for the down paayment",
+  "any": [
+   "virtual currency",
+   "cryptocurrency"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "power of attorney at closnig",
+  "any": [
+   "power of attorney"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "inncome loss reported irs form 1040 schedule c",
+  "title": "Income or Loss Reported on IRS Form 1040 Schedule C",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "apprasial practices",
+  "title": "Appraisal Practices",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "resae restrictios general inormation",
+  "title": "With Resale Restrictions General Information",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "boarder incoome fha",
+  "any": [
+   "boarder"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "weighetd-average arm mbs",
+  "title": "Weighted-Average ARM MBS",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "how many monthhs of bank statements do I need",
+  "any": [
+   "bank statement",
+   "two months",
+   "most recent"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "requirements loans nontraditional creidt",
+  "title": "Requirements for Loans with Nontraditional Credit",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "inerest only loans",
+  "any": [
+   "interest-only",
+   "interest only"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "seller is paying my clossing costs",
+  "any": [
+   "interested party",
+   "seller"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "dispted acounts on the creidt reporrt",
+  "any": [
+   "disputed"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "energy efficient mortgae",
+  "any": [
+   "energy efficient"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "usda income lmits",
+  "any": [
+   "usda",
+   "income"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "land trust appraial requiirements",
+  "title": "Land Trust Appraisal Requirements",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "conversioon construction-ot-permanent financig single-cclosing tranasctions",
+  "title": "Conversion of Construction-to-Permanent Financing Single-Closing Transactions",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "grndma wants to pay closig costs",
+  "any": [
+   "gift"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "commitmennt proces",
+  "title": "Commitment Process",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "mae qc file request submiission",
+  "title": "Mae QC File Request and Submission Requirements",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "vacancy facor reental income 75 pecent",
+  "any": [
+   "75%",
+   "vacancy"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "waaiver projetc revieew",
+  "title": "Waiver of Project Review",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "using lease agrement for rnetal inccome",
+  "any": [
+   "lease"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "delayed fniancing after cash purchase",
+  "any": [
+   "delayed financing"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "203k limiteed reparis",
+  "any": [
+   "203(k)",
+   "limited"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "minimmu creit score fha",
+  "any": [
+   "credit score",
+   "minimum"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "income nno-subject property departing residence",
+  "title": "Income from Non-Subject Property Departing Residence",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "accurayc du data du tlerances errors credit report",
+  "title": "Accuracy of DU Data DU Tolerances and Errors in the Credit Report",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "job offer start date after clossing",
+  "any": [
+   "offer",
+   "start"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "how to calculate overitme incoe",
+  "any": [
+   "overtime"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "texas 50 6 loan underwriting collateral cosing consideraitons",
+  "title": "Texas 50 a 6 Loan Underwriting Collateral and Closing Considerations",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "resevres for multiple financed propeties",
+  "any": [
+   "financed properties",
+   "reserves"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "facttory-built housig modulr prfeabricated panleized setcional housign",
+  "title": "Factory-Built Housing Modular Prefabricated Panelized or Sectional Housing",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "huosing pricng mortgage insurance loan delivery requirements",
+  "title": "Housing Pricing Mortgage Insurance and Loan Delivery Requirements",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "child supporrt icome how long must it continue",
+  "any": [
+   "child support",
+   "three years",
+   "continuance"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "requiirements crredit reports",
+  "title": "Requirements for Credit Reports",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "actions environmenttal hazard asssessments below",
+  "title": "Actions for Environmental Hazard Assessments Below Standards",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "high balance loan lmits",
+  "any": [
+   "high-balance",
+   "loan limit"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "installment debt with less than ten monts left",
+  "any": [
+   "ten months",
+   "10 months"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "high-balance pricing mortgaage insurance special",
+  "title": "High-Balance Pricing Mortgage Insurance Special Feature Codes and Delivery Limitations",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "pyament requirements",
+  "title": "Payment Requirements",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "bonus commission overtime tip inccome",
+  "title": "Bonus Commission Overtime and Tip Income",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "high balace loan limits",
+  "any": [
+   "high-balance",
+   "loan limit"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "title insurnce covrage considerations",
+  "title": "Title Insurance Coverage Considerations",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "information analyzing indiviidual tax retuurns",
+  "title": "Information on Analyzing Individual Tax Returns",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "icnome suubject property short-terrm rental",
+  "title": "Income from the Subject Property Short-Term Rental",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "short sale waitting period",
+  "any": [
+   "short sale",
+   "preforeclosure"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "investment property minimum down paymet",
+  "any": [
+   "investment property",
+   "ltv"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "inccome from a secnd job",
+  "any": [
+   "secondary employment",
+   "second job",
+   "multiple jobs"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "privae road maintenance agreemennt",
+  "any": [
+   "private road",
+   "road"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "non arms lenggth purrchase",
+  "any": [
+   "arm's length",
+   "arms length",
+   "non-arm"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "housing pricing mortgage insurance loan deivery rqeuirements",
+  "title": "Housing Pricing Mortgage Insurance and Loan Delivery Requirements",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "fidelity crime insuance requirements prject",
+  "title": "Fidelity Crime Insurance Requirements for Project Developments",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "house has a big crack in the foundaton",
+  "any": [
+   "foundation",
+   "structural"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "du requirements liability asssesment",
+  "title": "DU Requirements for Liability Assessment",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "can I buy a house with a roommaate payig rent",
+  "any": [
+   "boarder",
+   "rent"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "power of attoreny at closing",
+  "any": [
+   "power of attorney"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "cedit reeport analsyis",
+  "title": "Credit Report Analysis",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "income loss rpeorted irs form 1065 irs form 1120s schedule k-1",
+  "title": "Income or Loss Reported on IRS Form 1065 or IRS Form 1120S Schedule K-1",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "streamlline refinnce fha",
+  "any": [
+   "streamline"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "hazard inssurance ddeuctible",
+  "any": [
+   "deductible",
+   "insurance"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "invesstment property minimum down payemnt",
+  "any": [
+   "investment property",
+   "ltv"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "profit and loss statement requireed",
+  "any": [
+   "profit and loss",
+   "p&l"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ },
+ {
+  "q": "income loss reportted irs form 1065 irs form 1120s schdeule k-1",
+  "title": "Income or Loss Reported on IRS Form 1065 or IRS Form 1120S Schedule K-1",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "mae s technoogy products",
+  "title": "Mae s Technology Products",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "gains incoem",
+  "title": "Gains Income",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "property eligibiliity underwritng considerations factory-buillt",
+  "title": "Property Eligibility and Underwriting Considerations Factory-Built Housing",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "factory-built hoousing modular pefabricated panelized sectioanl housing",
+  "title": "Factory-Built Housing Modular Prefabricated Panelized or Sectional Housing",
+  "kind": "typo-known-fannie",
+  "n": 3
+ },
+ {
+  "q": "instalment debt with less than ten months left",
+  "any": [
+   "ten months",
+   "10 months"
+  ],
+  "n": 5,
+  "kind": "typo-question"
+ }
+]

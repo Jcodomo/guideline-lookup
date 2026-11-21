@@ -10,5 +10,7 @@ curl -L -o guides\hud-4000.1.pdf "https://www.hud.gov/sites/default/files/Housin
 del guides\hud.txt 2>nul
 echo Building the index...
 python build_index.py
+echo Building meaning search...
+where node >nul 2>nul && node build_semantic.js
 echo Done. Open index.html
 pause
