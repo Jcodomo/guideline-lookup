@@ -12,5 +12,7 @@ echo Building the index...
 python build_index.py
 echo Building meaning search...
 where node >nul 2>nul && node build_semantic.js
+rem MiniLM meaning search (needs: npm install --no-save @huggingface/transformers@4.3.2, once)
+if exist node_modules\@huggingface\transformers node build_minilm.mjs
 echo Done. Open index.html
 pause

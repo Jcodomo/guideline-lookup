@@ -75,3 +75,20 @@ Ideas taken from [qdrant/page-search](https://github.com/qdrant/page-search) and
 | time per search (p50 / p95) | 1.5 / 6.4 ms | 2.6 / 9.6 ms |
 
 Rebuild the meaning data after a refresh: `node build_semantic.js` (refresh.bat does it when Node is installed).
+
+## Meaning search with MiniLM (added 2026-11-21)
+Questions are also read by **MiniLM** (`all-MiniLM-L6-v2`, the small sentence model qdrant's page search uses), so a question in everyday words finds the section even when the two share no words ("my ex pays me every month for the kids" → *Alimony, Child Support …*; "I rent my place out on Airbnb" → *Short-Term Rental*; "I'm on maternity leave" → *Temporary Leave Income*).
+- **Ahead of time** (`build_minilm.mjs` → `data/minilm.js`, 7.6 MB): every section is cut into ~110-word passages (11,953), each read by the model into 384 numbers (8-bit), plus every section title on its own. A section scores by its two closest passages (so a very long chapter does not win by size) and its title (30%).
+- **In the page:** the model (23 MB) and transformers.js are downloaded once, from Hugging Face and jsDelivr, after the page is ready, and the browser keeps them. The question is read on this computer in about 10 ms; nothing about the search is sent anywhere. It is mixed in for questions, and whenever the words find little. Typing mistakes are corrected and shorthand spelled out (crypto → virtual currency) before the model reads the question.
+- **Settings → Smarter meaning search** turns it off. Offline, turned off, or with `data/minilm.js` built for an older copy of the guides, the meaning search learned from the guides (`data/semantic.js`) is used as before.
+- **Real words stay as typed:** a word the guides never use but that is ordinary English (kids, visa, fired, uber) is no longer "corrected" into a guide word (bids, via, filed, user); MiniLM's list of 21,000 whole words tells them apart.
+- **Rebuild after a refresh** (about two minutes): `npm install --no-save @huggingface/transformers@4.3.2` once, then `node build_minilm.mjs` (refresh.bat runs it when the package is there). `node build_minilm.mjs --queries test/cases500.json --queries test/paraphrase.json` re-reads the test searches into `data/minilm-queries.json`, so the tests run in Node without the model.
+- **Tests:** `node test/runpara.js` runs 70 everyday questions that avoid the guide's words three ways; `node test/run500.js` the 527 searches (set `GL_MINI=0` to leave MiniLM out).
+
+| 70 everyday questions | words only | + meaning from the guides | + MiniLM |
+|---|---|---|---|
+| right section in the top 5 | 27 | 31 | **47** |
+| in the top 3 | 22 | 21 | **41** |
+| mean reciprocal rank | 0.284 | 0.274 | **0.550** |
+
+The 527 searches stay at 524 found (99.4%), MRR 0.981; a question takes about 6 ms to rank (p95 13 ms) plus about 10 ms for the model to read it.

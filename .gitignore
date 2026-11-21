@@ -13,3 +13,8 @@
 /va.html
 /va_l.html
 __pycache__/
+
+# MiniLM build (node build_minilm.mjs)
+node_modules/
+.model-cache/
+package-lock.json
