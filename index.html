@@ -83,6 +83,10 @@ mark{background:var(--mark);color:inherit;border-radius:3px;padding:0 1px}
 #reader .hd{padding:12px 14px;border-bottom:1px solid var(--line);background:var(--surface-2)}
 #reader h2{margin:4px 0 8px;font-size:17px;color:var(--strong);line-height:1.3}
 #rbody{padding:14px;overflow-y:auto;white-space:pre-wrap;font-size:14px;line-height:1.6}
+@keyframes gl-in{from{opacity:0}}
+#reader .hd,#rbody,#webp,#aip,#ac,dialog[open]{animation:gl-in .18s ease-out}
+@media(prefers-reduced-motion:reduce){#reader .hd,#rbody,#webp,#aip,#ac,dialog[open]{animation:none}}
+dialog .keep{display:flex;gap:8px;align-items:center;text-transform:none;letter-spacing:0;font-weight:600;font-size:13px;color:var(--text)}
 .empty{color:var(--muted);text-align:center;padding:40px 16px}
 .web a.btn{margin:0 6px 6px 0}
 .note{font-size:12px;color:var(--muted);margin:8px 0 0}
@@ -154,8 +158,9 @@ kbd{font:600 11px ui-monospace,Consolas,monospace;border:1px solid var(--line-2)
 <dialog id="dlg"><div class="in">
   <h3>Settings</h3>
   <p class="meta">Local search never uses tokens. These settings only matter if you use <b>AI &middot; tokens</b> mode.</p>
-  <label>Anthropic API key (stored only in this browser)</label>
+  <label>Anthropic API key</label>
   <input id="sKey" type="password" placeholder="sk-ant-..." autocomplete="off">
+  <label class="keep"><input type="checkbox" id="sKeep"> Remember the key on this computer</label>
   <label>Model</label>
   <select id="sModel">
     <option value="claude-haiku-5-5">Claude Haiku 5.5 (cheapest, fast)</option>
@@ -172,7 +177,7 @@ kbd{font:600 11px ui-monospace,Consolas,monospace;border:1px solid var(--line-2)
   <label>Max answer length (tokens)</label>
   <input id="sMax" type="text" value="700">
   <div class="act" style="margin-top:16px"><button class="btn pri" id="sSave">Save</button><button class="btn" id="sClose">Close</button></div>
-  <p class="note">The key stays in this browser's local storage and is sent only to api.anthropic.com. Do not use this on a shared computer.</p>
+  <p class="note">The key is kept only while this tab is open, unless you tick Remember (then it stays in this browser's storage). It is sent only to api.anthropic.com. Do not tick Remember on a shared computer.</p>
 </div></dialog>
 
 <script src="data/fannie.js"></script>
@@ -335,7 +340,9 @@ function bestAnswer(res,P,n=3){ const tl=terms(P); if(!res.length||!tl.length) r
 
 /* ============ UI state ============ */
 let agSel=new Set(LS.get('gl-ag',['Fannie','Freddie','FHA','VA','Other'])); let mode=LS.get('gl-mode','local'); let cur=null; let lastQ=''; let lastRun=null;
-let hist=LS.get('gl-hist',[]); let cfg=Object.assign({key:'',model:'claude-haiku-5-5',auto:'click',web:'0',max:700},LS.get('gl-cfg',{})); let tokUsed=LS.get('gl-tok',{in:0,out:0});
+let hist=LS.get('gl-hist',[]); const KEY={get(){try{return sessionStorage.getItem('gl-key')||localStorage.getItem('gl-key')||''}catch(e){return ''}},kept(){try{return !!localStorage.getItem('gl-key')}catch(e){return false}},
+  set(k,keep){try{k?sessionStorage.setItem('gl-key',k):sessionStorage.removeItem('gl-key')}catch(e){} try{k&&keep?localStorage.setItem('gl-key',k):localStorage.removeItem('gl-key')}catch(e){}}};
+let cfg=Object.assign({model:'claude-haiku-5-5',auto:'click',web:'0',max:700},LS.get('gl-cfg',{})); if(cfg.key){KEY.set(cfg.key,true);} cfg.key=KEY.get(); LS.set('gl-cfg',Object.assign({},cfg,{key:undefined})); let tokUsed=LS.get('gl-tok',{in:0,out:0});
 function linkLabel(d){return d.a==='Fannie'?'View in Selling Guide':d.a==='Freddie'?'View in Freddie Guide':d.a==='FHA'?'View in HUD 4000.1 (PDF)':d.a==='VA'?'View on VA site':'View official source'}
 function cite(d){return AGCOL[d.a]+' '+(d.s?d.s+' - ':'')+d.t+' - '+d.u}
 
@@ -433,12 +440,13 @@ $('#results').addEventListener('click',e=>{ const o=e.target.closest('[data-open
 $$('.chip').forEach(b=>{ b.classList.toggle('on',agSel.has(b.dataset.ag)); b.onclick=()=>{ const a=b.dataset.ag; if(agSel.has(a)&&agSel.size>1) agSel.delete(a); else agSel.add(a); b.classList.toggle('on',agSel.has(a)); LS.set('gl-ag',[...agSel]); render($('#q').value); }; });
 $$('#mode button').forEach(b=>b.onclick=()=>setMode(b.dataset.m));
 $('#bTheme').onclick=()=>{ const r=document.documentElement; const dark=r.dataset.theme?r.dataset.theme==='dark':matchMedia('(prefers-color-scheme:dark)').matches; r.dataset.theme=dark?'light':'dark'; LS.set('gl-theme',r.dataset.theme); try{localStorage.setItem('gl-theme',r.dataset.theme)}catch(e){} };
-$('#bSet').onclick=()=>{ $('#sKey').value=cfg.key; $('#sModel').value=cfg.model; $('#sAuto').value=cfg.auto; $('#sWeb').value=cfg.web; $('#sMax').value=cfg.max; $('#dlg').showModal(); };
+$('#bSet').onclick=()=>{ $('#sKey').value=cfg.key; $('#sKeep').checked=KEY.kept(); $('#sModel').value=cfg.model; $('#sAuto').value=cfg.auto; $('#sWeb').value=cfg.web; $('#sMax').value=cfg.max; $('#dlg').showModal(); };
 $('#sClose').onclick=()=>$('#dlg').close();
-$('#sSave').onclick=()=>{ cfg={key:$('#sKey').value.trim(),model:$('#sModel').value,auto:$('#sAuto').value,web:$('#sWeb').value,max:+$('#sMax').value||700}; LS.set('gl-cfg',cfg); $('#dlg').close(); renderPanels(); };
+$('#sSave').onclick=()=>{ cfg={key:$('#sKey').value.trim(),model:$('#sModel').value,auto:$('#sAuto').value,web:$('#sWeb').value,max:+$('#sMax').value||700}; KEY.set(cfg.key,$('#sKeep').checked); LS.set('gl-cfg',Object.assign({},cfg,{key:undefined})); $('#dlg').close(); renderPanels(); };
 $('#q').focus();
 $('#stats').textContent='Building search index…';
 setTimeout(()=>{ build(); stats(); setMode(mode); const p=new URLSearchParams(location.search).get('q'); if(p){$('#q').value=p;go();} },20);
+window.GLsearch=q=>{ $('#q').value=q; go(); $('#q').focus(); };
 </script>
 </body>
 </html>

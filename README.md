@@ -1,6 +1,6 @@
 # Guideline Lookup
 
-Standalone, offline-first guideline search for Fannie Mae, Freddie Mac, FHA and VA. Same look as Mortgage Suite, but a separate app (nothing is added to mtgcalc).
+Standalone, offline-first guideline search for Fannie Mae, Freddie Mac, FHA and VA. Same look as Mortgage Suite. It also runs inside Mortgage Suite (mtgcalc) as guidelines.html, built from this app with `node tools/guidelines-sync.mjs`.
 
 ## Use it
 Double-click `index.html` (works from a folder, no server, no install). Press `/` to search.
@@ -31,7 +31,7 @@ Run `refresh.bat` (needs Python 3 and, for the HUD PDF text, `pdftotext` from po
 - `crawl_fannie.py`, `build_index.py`, `data_curated.py` the builders; edit `data_curated.py` to add your own pointers or notes
 
 ## Privacy
-Searching is entirely local. The API key (if you add one) is stored only in this browser's local storage and is sent only to api.anthropic.com. Do not use AI mode on a shared computer.
+Searching is entirely local. The API key (if you add one) is kept only while the tab is open, unless you tick Remember (then it stays in this browser's local storage). It is sent only to api.anthropic.com. Do not use AI mode on a shared computer.
 
 The guides are public documents from Fannie Mae, HUD and the VA, included for your own reference; they are updated often, so refresh them and always confirm against the official source.
 
