@@ -506,15 +506,15 @@ openDoc=function(i,tl){ _openDoc(i,tl); const d=D[i], k=docKey(d);
   $('#rFind').onkeydown=e=>{ if(e.key==='Enter'&&hits.length){ e.preventDefault(); at=(at+(e.shiftKey?-1:1)+hits.length)%hits.length; show(); } if(e.key==='Escape'){ $('#rFind').value=''; $('#rFind').oninput(); } };
   const rel=run(d.t,agSel,{noprf:true}).res.filter(([j])=>j!==i).slice(0,5);
   if(rel.length) body.insertAdjacentHTML('afterend','<div class="rel"><div class="lbl">Related sections</div>'+rel.map(([j])=>`<a href="#" data-rel="${j}"><span class="badge b-${D[j].a}">${AGCOL[D[j].a]}</span> ${esc((D[j].s?D[j].s+' ':'')+D[j].t)}</a>`).join('')+'</div>');
-  $('#reader [data-rel]').forEach(a=>a.onclick=e=>{ e.preventDefault(); openDoc(+a.dataset.rel,curTerms()); });
+  $$('#reader [data-rel]').forEach(a=>a.onclick=e=>{ e.preventDefault(); openDoc(+a.dataset.rel,curTerms()); });
 };
 // topics, view switch, saved, search tips
 $('#stats').insertAdjacentHTML('beforebegin',`<div class="row"><span class="lbl">Browse</span><span class="topics">${TOPICS.map(([t,q])=>`<button class="chip tp" data-q="${esc(q)}">${esc(t)}</button>`).join('')}</span></div>
 <div class="row"><span class="lbl">View</span><span class="seg" id="view"><button data-v="list">List</button><button data-v="compare" title="The best match from Fannie Mae, Freddie Mac, FHA and VA side by side">Compare agencies</button></span><button class="chip" id="bSaved">&#9733; Saved</button><span class="spacer"></span><button class="chip" id="bTips" aria-expanded="false">Search tips</button></div>
 <div class="tips meta" id="tips" hidden><b>"exact words"</b> in quotes &middot; <b>-word</b> leaves a word out &middot; <b>in:fha</b>, <b>in:fannie</b>, <b>in:freddie</b>, <b>in:va</b> searches one guide &middot; a section code such as <b>B3-3.1-01</b> opens it &middot; plain questions work too (&ldquo;can a gift pay closing costs&rdquo;) &middot; <kbd>/</kbd> search &middot; <kbd>&darr;</kbd><kbd>&uarr;</kbd> move through results &middot; <kbd>Enter</kbd> read &middot; <kbd>Esc</kbd> back to the box</div>`);
-const syncView=()=>$('#view button').forEach(b=>b.classList.toggle('on',b.dataset.v===view));
-$('#view button').forEach(b=>b.onclick=()=>{ view=b.dataset.v; LS.set('gl-view',view); syncView(); render($('#q').value); }); syncView();
-$('.tp').forEach(b=>b.onclick=()=>{ $('#q').value=b.dataset.q; go(); });
+const syncView=()=>$$('#view button').forEach(b=>b.classList.toggle('on',b.dataset.v===view));
+$$('#view button').forEach(b=>b.onclick=()=>{ view=b.dataset.v; LS.set('gl-view',view); syncView(); render($('#q').value); }); syncView();
+$$('.tp').forEach(b=>b.onclick=()=>{ $('#q').value=b.dataset.q; go(); });
 $('#bSaved').onclick=showSaved;
 $('#bTips').onclick=()=>{ const t=$('#tips'); t.hidden=!t.hidden; $('#bTips').setAttribute('aria-expanded',String(!t.hidden)); };
 // voice search where the browser has it
@@ -526,7 +526,7 @@ if(SR){ $('#clr').insertAdjacentHTML('beforebegin','<button id="mic" title="Sear
 document.addEventListener('keydown',e=>{
   const a=document.activeElement, inRes=a&&a.classList&&a.classList.contains('res');
   if(a&&a.id==='q'&&e.key==='ArrowDown'&&$('#ac').style.display==='none'){ const f=$('#results .res'); if(f){ e.preventDefault(); f.focus(); } return; }
-  if(!inRes) return; const all=$('#results .res'), k=all.indexOf(a);
+  if(!inRes) return; const all=$$('#results .res'), k=all.indexOf(a);
   if(e.key==='ArrowDown'||e.key==='j'){ e.preventDefault(); (all[k+1]||a).focus(); }
   else if(e.key==='ArrowUp'||e.key==='k'){ e.preventDefault(); if(k>0) all[k-1].focus(); else $('#q').focus(); }
   else if(e.key==='Enter'){ e.preventDefault(); openDoc(+a.dataset.i,curTerms()); }
